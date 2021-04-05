@@ -1,7 +1,7 @@
 name: Build and push the tagged build to production
 
 on:
-  push:
+  create:
     tags:
       - 'v*'
 

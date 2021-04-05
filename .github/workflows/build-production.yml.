@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.ACR_LOGIN }} # optional
           # Password or personal access token used to log in to a Docker registry. If not set, no login occurs
           password: ${{ secrets.ACR_PASSWORD }} # optional
-          # Server address of Docker registry. If not set, it defaults to Docker Hub
+          # Server address of Docker registry. If not set, login defaults to Docker Hub
           registry: ${{ secrets.ACR_NAME }} # optional
           # Docker repository to tag the image with
           repository: contoso-website

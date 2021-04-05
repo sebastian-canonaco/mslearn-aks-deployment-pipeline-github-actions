@@ -36,5 +36,5 @@ jobs:
         uses: Azure/aks-set-context@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-          resource-group: <your-resource-group>
+          resource-group: mslearn-gh-pipelines-28090
           cluster-name: contoso-video
